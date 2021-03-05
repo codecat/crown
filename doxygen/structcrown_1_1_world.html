@@ -272,6 +272,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>post_unit_destroyed_e
 <tr class="memitem:afe905bee56223f7c0ce5fa0a2577d99b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe905bee56223f7c0ce5fa0a2577d99b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>post_level_loaded_event</b> ()</td></tr>
 <tr class="separator:afe905bee56223f7c0ce5fa0a2577d99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a146f70b3e3c1a30fbf790bd417a23fd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_world.html#a146f70b3e3c1a30fbf790bd417a23fd9">disable_unit_callbacks</a> ()</td></tr>
+<tr class="memdesc:a146f70b3e3c1a30fbf790bd417a23fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">After this call, units will no longer receive spawned(), unspawned() or any other callback.  <a href="#a146f70b3e3c1a30fbf790bd417a23fd9">More...</a><br /></td></tr>
+<tr class="separator:a146f70b3e3c1a30fbf790bd417a23fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -494,6 +497,24 @@ u32&#160;</td><td class="memItemRight" valign="bottom"><b>_marker</b></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a146f70b3e3c1a30fbf790bd417a23fd9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void crown::World::disable_unit_callbacks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>After this call, units will no longer receive spawned(), unspawned() or any other callback. </p>
+<p>This is used only by the editor to prevent user logic to interfere with editor's assumptions. </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li>src/world/<a class="el" href="world_8h_source.html">world.h</a></li>
 <li>src/world/world.cpp</li>
@@ -501,7 +522,7 @@ u32&#160;</td><td class="memItemRight" valign="bottom"><b>_marker</b></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 16 2021 16:08:56 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 5 2021 17:46:09 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
