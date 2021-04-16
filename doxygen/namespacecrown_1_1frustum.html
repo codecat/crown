@@ -95,9 +95,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="name
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecrown_1_1frustum.html#aa6506b04d0487bcb98597a929f4c6465">contains_point</a> (const <a class="el" href="structcrown_1_1_frustum.html">Frustum</a> &amp;f, const <a class="el" href="structcrown_1_1_vector3.html">Vector3</a> &amp;p)</td></tr>
 <tr class="memdesc:aa6506b04d0487bcb98597a929f4c6465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the frustum <em>f</em> contains the point <em>p</em>. <br /></td></tr>
 <tr class="separator:aa6506b04d0487bcb98597a929f4c6465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a041c9602c2051442bb8ec1d5eaeccd90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcrown_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecrown_1_1frustum.html#a041c9602c2051442bb8ec1d5eaeccd90">vertex</a> (const <a class="el" href="structcrown_1_1_frustum.html">Frustum</a> &amp;f, u32 index)</td></tr>
-<tr class="memdesc:a041c9602c2051442bb8ec1d5eaeccd90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the corner <em>index</em> of the frustum <em>f</em>.  <a href="#a041c9602c2051442bb8ec1d5eaeccd90">More...</a><br /></td></tr>
-<tr class="separator:a041c9602c2051442bb8ec1d5eaeccd90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d26e98b90ec276748a9c5133173bcbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecrown_1_1frustum.html#a6d26e98b90ec276748a9c5133173bcbe">vertices</a> (<a class="el" href="structcrown_1_1_vector3.html">Vector3</a> vertices[8], const <a class="el" href="structcrown_1_1_frustum.html">Frustum</a> &amp;f)</td></tr>
+<tr class="memdesc:a6d26e98b90ec276748a9c5133173bcbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <em>vertices</em> of the frustum <em>f</em>.  <a href="#a6d26e98b90ec276748a9c5133173bcbe">More...</a><br /></td></tr>
+<tr class="separator:a6d26e98b90ec276748a9c5133173bcbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df4482f08383206fc35290be5674eb4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3df4482f08383206fc35290be5674eb4"></a>
 <a class="el" href="structcrown_1_1_a_a_b_b.html">AABB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecrown_1_1frustum.html#a3df4482f08383206fc35290be5674eb4">to_aabb</a> (const <a class="el" href="structcrown_1_1_frustum.html">Frustum</a> &amp;f)</td></tr>
 <tr class="memdesc:a3df4482f08383206fc35290be5674eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="structcrown_1_1_a_a_b_b.html">AABB</a> enclosing the frustum <em>f</em>. <br /></td></tr>
@@ -106,21 +106,24 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="name
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions to manipulate <a class="el" href="structcrown_1_1_frustum.html">Frustum</a>. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a041c9602c2051442bb8ec1d5eaeccd90"></a>
+<a class="anchor" id="a6d26e98b90ec276748a9c5133173bcbe"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structcrown_1_1_vector3.html">Vector3</a> crown::frustum::vertex </td>
+          <td class="memname">void crown::frustum::vertices </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structcrown_1_1_frustum.html">Frustum</a> &amp;&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
+          <td class="paramtype"><a class="el" href="structcrown_1_1_vector3.html">Vector3</a>&#160;</td>
+          <td class="paramname"><em>vertices</em>[8], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
-          <td class="paramname"><em>index</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structcrown_1_1_frustum.html">Frustum</a> &amp;&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -128,17 +131,22 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="name
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Returns the corner <em>index</em> of the frustum <em>f</em>. </p>
-<dl class="section note"><dt>Note</dt><dd>Index to corner table: 0 = Near bottom left 1 = Near bottom right 2 = Near top right 3 = Near top left 4 = Far bottom left 5 = Far bottom right 6 = Far top right 7 = Far top left </dd></dl>
+<p>Returns the <em>vertices</em> of the frustum <em>f</em>. </p>
+<dl class="section note"><dt>Note</dt><dd>0 = Near bottom left 1 = Near bottom right 2 = Near top right 3 = Near top left 4 = Far bottom left 5 = Far bottom right 6 = Far top right 7 = Far top left </dd></dl>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 5 2021 17:46:09 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 17 2021 00:53:19 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

@@ -13,9 +13,10 @@ var searchData=
   ['vector_3c_20crown_3a_3aconsoleserver_3a_3aclient_20_3e',['Vector&lt; crown::ConsoleServer::Client &gt;',['../structcrown_1_1_vector.html',1,'crown']]],
   ['vector_3c_20crown_3a_3adynamicstring_20_3e',['Vector&lt; crown::DynamicString &gt;',['../structcrown_1_1_vector.html',1,'crown']]],
   ['version_5fchanged',['version_changed',['../structcrown_1_1_data_compiler.html#af47d56f83e338525bb450c6c6b6dcff7',1,'crown::DataCompiler']]],
-  ['vertex',['vertex',['../namespacecrown_1_1aabb.html#a0bf58bcf11e451a3a6c0c71cda1257c9',1,'crown::aabb::vertex()'],['../namespacecrown_1_1frustum.html#a041c9602c2051442bb8ec1d5eaeccd90',1,'crown::frustum::vertex()']]],
+  ['vertex',['vertex',['../namespacecrown_1_1aabb.html#a0bf58bcf11e451a3a6c0c71cda1257c9',1,'crown::aabb']]],
   ['vertexdata',['VertexData',['../structcrown_1_1_gui_1_1_vertex_data.html',1,'crown::Gui']]],
   ['vertexdata',['VertexData',['../structcrown_1_1_vertex_data.html',1,'crown']]],
+  ['vertices',['vertices',['../namespacecrown_1_1frustum.html#a6d26e98b90ec276748a9c5133173bcbe',1,'crown::frustum']]],
   ['visible',['visible',['../structcrown_1_1_mesh_renderer_desc.html#ac7cc6319729a63258484d1b230acca2e',1,'crown::MeshRendererDesc::visible()'],['../structcrown_1_1_sprite_renderer_desc.html#aeeeaa6f138e021d5f55a34ccd6d532a8',1,'crown::SpriteRendererDesc::visible()']]],
   ['volume',['volume',['../namespacecrown_1_1aabb.html#ae2b427c3faebdc173f3d4127161052a5',1,'crown::aabb::volume()'],['../namespacecrown_1_1sphere.html#aa422cad54506011a1979bbf3b6ed555a',1,'crown::sphere::volume()']]]
 ];

@@ -188,18 +188,18 @@ u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 <tr class="memitem:ga55966cae0ae6ceef84a396766304aeba"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga55966cae0ae6ceef84a396766304aeba">crown::ray_mesh_intersection</a> (const Vector3 &amp;from, const Vector3 &amp;dir, const Matrix4x4 &amp;tm, const void *vertices, u32 stride, const u16 *indices, u32 num)</td></tr>
 <tr class="memdesc:ga55966cae0ae6ceef84a396766304aeba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the distance along ray (from, dir) to intersection point with the triangle mesh defined by (vertices, stride, indices, num) or -1.0 if no intersection.  <a href="group___math.html#ga55966cae0ae6ceef84a396766304aeba">More...</a><br /></td></tr>
 <tr class="separator:ga55966cae0ae6ceef84a396766304aeba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa73a3b394f357863ec839c425201ce0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa73a3b394f357863ec839c425201ce0b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gaa73a3b394f357863ec839c425201ce0b">crown::plane_3_intersection</a> (const Plane3 &amp;a, const Plane3 &amp;b, const Plane3 &amp;c, Vector3 &amp;ip)</td></tr>
-<tr class="memdesc:gaa73a3b394f357863ec839c425201ce0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the planes <em>a</em>, <em>b</em> and <em>c</em> intersects and if so fills <em>ip</em> with the intersection point. <br /></td></tr>
-<tr class="separator:gaa73a3b394f357863ec839c425201ce0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga618bd1d60d10675ff3f77ab39f947e87"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga618bd1d60d10675ff3f77ab39f947e87"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga618bd1d60d10675ff3f77ab39f947e87">crown::frustum_sphere_intersection</a> (const Frustum &amp;f, const Sphere &amp;s)</td></tr>
-<tr class="memdesc:ga618bd1d60d10675ff3f77ab39f947e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the frustum <em>f</em> and the sphere <em>s</em> intersects. <br /></td></tr>
-<tr class="separator:ga618bd1d60d10675ff3f77ab39f947e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1d490762d4b506dd4f78412791339a59"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1d490762d4b506dd4f78412791339a59"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga1d490762d4b506dd4f78412791339a59">crown::frustum_box_intersection</a> (const Frustum &amp;f, const AABB &amp;b)</td></tr>
-<tr class="memdesc:ga1d490762d4b506dd4f78412791339a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the frustum <em>f</em> and the <a class="el" href="structcrown_1_1_a_a_b_b.html">AABB</a> <em>b</em> intersects. <br /></td></tr>
-<tr class="separator:ga1d490762d4b506dd4f78412791339a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66cec43a366813b375f92cf4c41ecc2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga66cec43a366813b375f92cf4c41ecc2e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga66cec43a366813b375f92cf4c41ecc2e">crown::plane_3_intersection</a> (Vector3 &amp;ip, const Plane3 &amp;a, const Plane3 &amp;b, const Plane3 &amp;c)</td></tr>
+<tr class="memdesc:ga66cec43a366813b375f92cf4c41ecc2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the planes <em>a</em>, <em>b</em> and <em>c</em> intersects and if so fills <em>ip</em> with the intersection point. <br /></td></tr>
+<tr class="separator:ga66cec43a366813b375f92cf4c41ecc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01d5e173326e6189e56f2ff73162f815"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga01d5e173326e6189e56f2ff73162f815"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga01d5e173326e6189e56f2ff73162f815">crown::sphere_intersects_frustum</a> (const Sphere &amp;s, const Frustum &amp;f)</td></tr>
+<tr class="memdesc:ga01d5e173326e6189e56f2ff73162f815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the frustum <em>f</em> and the sphere <em>s</em> intersects. <br /></td></tr>
+<tr class="separator:ga01d5e173326e6189e56f2ff73162f815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7fc37f84cf36340a41e03ea899e09b96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7fc37f84cf36340a41e03ea899e09b96"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga7fc37f84cf36340a41e03ea899e09b96">crown::obb_intersects_frustum</a> (const OBB &amp;obb, const Frustum &amp;f)</td></tr>
+<tr class="memdesc:ga7fc37f84cf36340a41e03ea899e09b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the <a class="el" href="structcrown_1_1_o_b_b.html">OBB</a> <em>obb</em> intersects the frustum <em>f</em>. <br /></td></tr>
+<tr class="separator:ga7fc37f84cf36340a41e03ea899e09b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9370f904c105e1d86a7df603c8dc0f6b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9370f904c105e1d86a7df603c8dc0f6b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga9370f904c105e1d86a7df603c8dc0f6b">crown::fequal</a> (f32 a, f32 b, f32 epsilon=FLOAT_EPSILON)</td></tr>
 <tr class="memdesc:ga9370f904c105e1d86a7df603c8dc0f6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether <em>a</em> and <em>b</em> are equal according to <em>epsilon</em>. <br /></td></tr>
@@ -508,9 +508,9 @@ f32 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gro
 const f32 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gadf2abe67a86c0d3d02060d1dd4380847">crown::to_float_ptr</a> (const Matrix4x4 &amp;m)</td></tr>
 <tr class="memdesc:gadf2abe67a86c0d3d02060d1dd4380847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the pointer to the matrix's data. <br /></td></tr>
 <tr class="separator:gadf2abe67a86c0d3d02060d1dd4380847"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga38f02438d24bee64592dd7cf5a4e44dc"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga38f02438d24bee64592dd7cf5a4e44dc">crown::to_string</a> (const Matrix4x4 &amp;m, char *buf, u32 buf_len)</td></tr>
-<tr class="memdesc:ga38f02438d24bee64592dd7cf5a4e44dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the matrix .  <a href="group___math.html#ga38f02438d24bee64592dd7cf5a4e44dc">More...</a><br /></td></tr>
-<tr class="separator:ga38f02438d24bee64592dd7cf5a4e44dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga29d3db5239ad72e56a19ca9bec40f611"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga29d3db5239ad72e56a19ca9bec40f611">crown::to_string</a> (char *buf, u32 buf_len, const Matrix4x4 &amp;m)</td></tr>
+<tr class="memdesc:ga29d3db5239ad72e56a19ca9bec40f611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the matrix .  <a href="group___math.html#ga29d3db5239ad72e56a19ca9bec40f611">More...</a><br /></td></tr>
+<tr class="separator:ga29d3db5239ad72e56a19ca9bec40f611"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac5eca57779259485f3d038fe51511a4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac5eca57779259485f3d038fe51511a4d"></a>
 Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gac5eca57779259485f3d038fe51511a4d">crown::from_elements</a> (f32 x, f32 y, f32 z, f32 w)</td></tr>
 <tr class="memdesc:gac5eca57779259485f3d038fe51511a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new quaternion from individual elements. <br /></td></tr>
@@ -582,9 +582,9 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga0cab52d5ee97c43425ef96eeb2374907">crown::lerp</a> (const Quaternion &amp;a, const Quaternion &amp;b, f32 t)</td></tr>
 <tr class="memdesc:ga0cab52d5ee97c43425ef96eeb2374907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the linearly interpolated quaternion between <em>a</em> and <em>b</em> at time <em>t</em> in [0, 1]. It uses NLerp. <br /></td></tr>
 <tr class="separator:ga0cab52d5ee97c43425ef96eeb2374907"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7c814b05f52345bdec90b7f3383c900f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga7c814b05f52345bdec90b7f3383c900f">crown::to_string</a> (const Quaternion &amp;q, char *buf, u32 buf_len)</td></tr>
-<tr class="memdesc:ga7c814b05f52345bdec90b7f3383c900f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the quaternion .  <a href="group___math.html#ga7c814b05f52345bdec90b7f3383c900f">More...</a><br /></td></tr>
-<tr class="separator:ga7c814b05f52345bdec90b7f3383c900f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga508aecb47e5bc8203b8da7c26d451de9"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga508aecb47e5bc8203b8da7c26d451de9">crown::to_string</a> (char *buf, u32 buf_len, const Quaternion &amp;q)</td></tr>
+<tr class="memdesc:ga508aecb47e5bc8203b8da7c26d451de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the quaternion .  <a href="group___math.html#ga508aecb47e5bc8203b8da7c26d451de9">More...</a><br /></td></tr>
+<tr class="separator:ga508aecb47e5bc8203b8da7c26d451de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae4a15a067a75b19cf88ea0087410e35b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae4a15a067a75b19cf88ea0087410e35b"></a>
 Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gae4a15a067a75b19cf88ea0087410e35b">crown::vector2</a> (f32 x, f32 y)</td></tr>
 <tr class="memdesc:gae4a15a067a75b19cf88ea0087410e35b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new vector from individual elements. <br /></td></tr>
@@ -779,9 +779,9 @@ const f32 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga4d41396043574e06e0228f605c1e5291">crown::to_vector2</a> (const Vector3 &amp;a)</td></tr>
 <tr class="memdesc:ga4d41396043574e06e0228f605c1e5291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="structcrown_1_1_vector2.html">Vector2</a> portion of <em>a</em>. (i.e. truncates z) <br /></td></tr>
 <tr class="separator:ga4d41396043574e06e0228f605c1e5291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4e7945f7048eb6d607322ec0283f564b"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga4e7945f7048eb6d607322ec0283f564b">crown::to_string</a> (const Vector3 &amp;v, char *buf, u32 buf_len)</td></tr>
-<tr class="memdesc:ga4e7945f7048eb6d607322ec0283f564b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the vector .  <a href="group___math.html#ga4e7945f7048eb6d607322ec0283f564b">More...</a><br /></td></tr>
-<tr class="separator:ga4e7945f7048eb6d607322ec0283f564b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabacb8b717f3cac4f975efaae565da4f4"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gabacb8b717f3cac4f975efaae565da4f4">crown::to_string</a> (char *buf, u32 buf_len, const Vector3 &amp;v)</td></tr>
+<tr class="memdesc:gabacb8b717f3cac4f975efaae565da4f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the vector .  <a href="group___math.html#gabacb8b717f3cac4f975efaae565da4f4">More...</a><br /></td></tr>
+<tr class="separator:gabacb8b717f3cac4f975efaae565da4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac6e9afc181facd9c523ce1fafb3405b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac6e9afc181facd9c523ce1fafb3405b5"></a>
 Vector4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gac6e9afc181facd9c523ce1fafb3405b5">crown::vector4</a> (f32 x, f32 y, f32 z, f32 w)</td></tr>
 <tr class="memdesc:gac6e9afc181facd9c523ce1fafb3405b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new vector from individual elements. <br /></td></tr>
@@ -878,9 +878,9 @@ const f32 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga8d7612963bfa947d20c3e587eb7e2119">crown::to_vector3</a> (const Vector4 &amp;a)</td></tr>
 <tr class="memdesc:ga8d7612963bfa947d20c3e587eb7e2119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="structcrown_1_1_vector3.html">Vector3</a> portion of <em>a</em>. (i.e. truncates w) <br /></td></tr>
 <tr class="separator:ga8d7612963bfa947d20c3e587eb7e2119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabffcfa0796bd4fb36efa2a6e2ce8a6fa"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gabffcfa0796bd4fb36efa2a6e2ce8a6fa">crown::to_string</a> (const Vector4 &amp;v, char *buf, u32 buf_len)</td></tr>
-<tr class="memdesc:gabffcfa0796bd4fb36efa2a6e2ce8a6fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the vector .  <a href="group___math.html#gabffcfa0796bd4fb36efa2a6e2ce8a6fa">More...</a><br /></td></tr>
-<tr class="separator:gabffcfa0796bd4fb36efa2a6e2ce8a6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga048b2ac3532d5b5c084e43f854ddaa75"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga048b2ac3532d5b5c084e43f854ddaa75">crown::to_string</a> (char *buf, u32 buf_len, const Vector4 &amp;v)</td></tr>
+<tr class="memdesc:ga048b2ac3532d5b5c084e43f854ddaa75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the vector .  <a href="group___math.html#ga048b2ac3532d5b5c084e43f854ddaa75">More...</a><br /></td></tr>
+<tr class="separator:ga048b2ac3532d5b5c084e43f854ddaa75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -1142,19 +1142,13 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 
 </div>
 </div>
-<a class="anchor" id="ga38f02438d24bee64592dd7cf5a4e44dc"></a>
+<a class="anchor" id="ga29d3db5239ad72e56a19ca9bec40f611"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">const char * crown::to_string </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structcrown_1_1_matrix4x4.html">Matrix4x4</a> &amp;&#160;</td>
-          <td class="paramname"><em>m</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
         </tr>
@@ -1162,7 +1156,13 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">u32&#160;</td>
-          <td class="paramname"><em>buf_len</em>&#160;</td>
+          <td class="paramname"><em>buf_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structcrown_1_1_matrix4x4.html">Matrix4x4</a> &amp;&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1196,19 +1196,13 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 
 </div>
 </div>
-<a class="anchor" id="ga7c814b05f52345bdec90b7f3383c900f"></a>
+<a class="anchor" id="ga508aecb47e5bc8203b8da7c26d451de9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">const char * crown::to_string </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structcrown_1_1_quaternion.html">Quaternion</a> &amp;&#160;</td>
-          <td class="paramname"><em>q</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
         </tr>
@@ -1216,7 +1210,13 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">u32&#160;</td>
-          <td class="paramname"><em>buf_len</em>&#160;</td>
+          <td class="paramname"><em>buf_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structcrown_1_1_quaternion.html">Quaternion</a> &amp;&#160;</td>
+          <td class="paramname"><em>q</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1231,19 +1231,13 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 
 </div>
 </div>
-<a class="anchor" id="ga4e7945f7048eb6d607322ec0283f564b"></a>
+<a class="anchor" id="gabacb8b717f3cac4f975efaae565da4f4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">const char * crown::to_string </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structcrown_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
         </tr>
@@ -1251,7 +1245,13 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">u32&#160;</td>
-          <td class="paramname"><em>buf_len</em>&#160;</td>
+          <td class="paramname"><em>buf_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structcrown_1_1_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1266,19 +1266,13 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 
 </div>
 </div>
-<a class="anchor" id="gabffcfa0796bd4fb36efa2a6e2ce8a6fa"></a>
+<a class="anchor" id="ga048b2ac3532d5b5c084e43f854ddaa75"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">const char * crown::to_string </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structcrown_1_1_vector4.html">Vector4</a> &amp;&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
         </tr>
@@ -1286,7 +1280,13 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">u32&#160;</td>
-          <td class="paramname"><em>buf_len</em>&#160;</td>
+          <td class="paramname"><em>buf_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structcrown_1_1_vector4.html">Vector4</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1304,7 +1304,7 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 5 2021 17:46:06 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 17 2021 00:53:16 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

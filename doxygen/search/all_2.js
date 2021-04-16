@@ -61,7 +61,6 @@ var searchData=
   ['connected',['connected',['../structcrown_1_1_input_device.html#afb6497e2fdcb8497cdf1445a3c51d14c',1,'crown::InputDevice']]],
   ['connectresult',['ConnectResult',['../structcrown_1_1_connect_result.html',1,'crown']]],
   ['consoleserver',['ConsoleServer',['../structcrown_1_1_console_server.html',1,'crown']]],
-  ['consoleserver',['ConsoleServer',['../structcrown_1_1_console_server.html#a199ae0b830c3eb784ad0a9d3b93687fb',1,'crown::ConsoleServer']]],
   ['containers',['Containers',['../group___containers.html',1,'']]],
   ['contains_5fpoint',['contains_point',['../namespacecrown_1_1aabb.html#a125ada6a172b5a285e4315b2b7cb08a5',1,'crown::aabb::contains_point()'],['../namespacecrown_1_1frustum.html#aa6506b04d0487bcb98597a929f4c6465',1,'crown::frustum::contains_point()'],['../namespacecrown_1_1sphere.html#a4d301efa896c88ae547815b01ff324aa',1,'crown::sphere::contains_point()']]],
   ['core',['Core',['../group___core.html',1,'']]],

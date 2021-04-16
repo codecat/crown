@@ -497,6 +497,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages physics objects in a <a class="el" href="structcrown_1_1_world.html" title="Represents a game world. ">World</a>.  <a href="structcrown_1_1_physics_world.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_pipeline.html">Pipeline</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render pipeline.  <a href="structcrown_1_1_pipeline.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_plane3.html">Plane3</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D Plane.  <a href="structcrown_1_1_plane3.html#details">More...</a><br /></td></tr>
@@ -560,6 +561,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_script_world.html">ScriptWorld</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages a set of scripts in a world.  <a href="structcrown_1_1_script_world.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_select_result.html">SelectResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_semaphore.html">Semaphore</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structcrown_1_1_semaphore.html" title="Semaphore. ">Semaphore</a>.  <a href="structcrown_1_1_semaphore.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -567,6 +570,9 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages shaders.  <a href="structcrown_1_1_shader_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_shader_resource.html">ShaderResource</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_socket_set.html">SocketSet</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FD_SET abstraction.  <a href="structcrown_1_1_socket_set.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_sound_resource.html">SoundResource</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -832,18 +838,18 @@ u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 <tr class="memitem:ga55966cae0ae6ceef84a396766304aeba"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga55966cae0ae6ceef84a396766304aeba">ray_mesh_intersection</a> (const <a class="el" href="structcrown_1_1_vector3.html">Vector3</a> &amp;from, const <a class="el" href="structcrown_1_1_vector3.html">Vector3</a> &amp;dir, const <a class="el" href="structcrown_1_1_matrix4x4.html">Matrix4x4</a> &amp;tm, const void *vertices, u32 stride, const u16 *indices, u32 num)</td></tr>
 <tr class="memdesc:ga55966cae0ae6ceef84a396766304aeba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the distance along ray (from, dir) to intersection point with the triangle mesh defined by (vertices, stride, indices, num) or -1.0 if no intersection.  <a href="group___math.html#ga55966cae0ae6ceef84a396766304aeba">More...</a><br /></td></tr>
 <tr class="separator:ga55966cae0ae6ceef84a396766304aeba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa73a3b394f357863ec839c425201ce0b"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gaa73a3b394f357863ec839c425201ce0b">plane_3_intersection</a> (const <a class="el" href="structcrown_1_1_plane3.html">Plane3</a> &amp;a, const <a class="el" href="structcrown_1_1_plane3.html">Plane3</a> &amp;b, const <a class="el" href="structcrown_1_1_plane3.html">Plane3</a> &amp;c, <a class="el" href="structcrown_1_1_vector3.html">Vector3</a> &amp;ip)</td></tr>
-<tr class="memdesc:gaa73a3b394f357863ec839c425201ce0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the planes <em>a</em>, <em>b</em> and <em>c</em> intersects and if so fills <em>ip</em> with the intersection point. <br /></td></tr>
-<tr class="separator:gaa73a3b394f357863ec839c425201ce0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga618bd1d60d10675ff3f77ab39f947e87"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga618bd1d60d10675ff3f77ab39f947e87">frustum_sphere_intersection</a> (const <a class="el" href="structcrown_1_1_frustum.html">Frustum</a> &amp;f, const <a class="el" href="structcrown_1_1_sphere.html">Sphere</a> &amp;s)</td></tr>
-<tr class="memdesc:ga618bd1d60d10675ff3f77ab39f947e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the frustum <em>f</em> and the sphere <em>s</em> intersects. <br /></td></tr>
-<tr class="separator:ga618bd1d60d10675ff3f77ab39f947e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1d490762d4b506dd4f78412791339a59"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga1d490762d4b506dd4f78412791339a59">frustum_box_intersection</a> (const <a class="el" href="structcrown_1_1_frustum.html">Frustum</a> &amp;f, const <a class="el" href="structcrown_1_1_a_a_b_b.html">AABB</a> &amp;b)</td></tr>
-<tr class="memdesc:ga1d490762d4b506dd4f78412791339a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the frustum <em>f</em> and the <a class="el" href="structcrown_1_1_a_a_b_b.html">AABB</a> <em>b</em> intersects. <br /></td></tr>
-<tr class="separator:ga1d490762d4b506dd4f78412791339a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66cec43a366813b375f92cf4c41ecc2e"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga66cec43a366813b375f92cf4c41ecc2e">plane_3_intersection</a> (<a class="el" href="structcrown_1_1_vector3.html">Vector3</a> &amp;ip, const <a class="el" href="structcrown_1_1_plane3.html">Plane3</a> &amp;a, const <a class="el" href="structcrown_1_1_plane3.html">Plane3</a> &amp;b, const <a class="el" href="structcrown_1_1_plane3.html">Plane3</a> &amp;c)</td></tr>
+<tr class="memdesc:ga66cec43a366813b375f92cf4c41ecc2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the planes <em>a</em>, <em>b</em> and <em>c</em> intersects and if so fills <em>ip</em> with the intersection point. <br /></td></tr>
+<tr class="separator:ga66cec43a366813b375f92cf4c41ecc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01d5e173326e6189e56f2ff73162f815"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga01d5e173326e6189e56f2ff73162f815">sphere_intersects_frustum</a> (const <a class="el" href="structcrown_1_1_sphere.html">Sphere</a> &amp;s, const <a class="el" href="structcrown_1_1_frustum.html">Frustum</a> &amp;f)</td></tr>
+<tr class="memdesc:ga01d5e173326e6189e56f2ff73162f815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the frustum <em>f</em> and the sphere <em>s</em> intersects. <br /></td></tr>
+<tr class="separator:ga01d5e173326e6189e56f2ff73162f815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7fc37f84cf36340a41e03ea899e09b96"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga7fc37f84cf36340a41e03ea899e09b96">obb_intersects_frustum</a> (const <a class="el" href="structcrown_1_1_o_b_b.html">OBB</a> &amp;obb, const <a class="el" href="structcrown_1_1_frustum.html">Frustum</a> &amp;f)</td></tr>
+<tr class="memdesc:ga7fc37f84cf36340a41e03ea899e09b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the <a class="el" href="structcrown_1_1_o_b_b.html">OBB</a> <em>obb</em> intersects the frustum <em>f</em>. <br /></td></tr>
+<tr class="separator:ga7fc37f84cf36340a41e03ea899e09b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9370f904c105e1d86a7df603c8dc0f6b"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga9370f904c105e1d86a7df603c8dc0f6b">fequal</a> (f32 a, f32 b, f32 epsilon=FLOAT_EPSILON)</td></tr>
 <tr class="memdesc:ga9370f904c105e1d86a7df603c8dc0f6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether <em>a</em> and <em>b</em> are equal according to <em>epsilon</em>. <br /></td></tr>
@@ -904,18 +910,18 @@ f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gafd008f52545e7a386b0511bd92894e76">catmull_rom</a> (const f32 p0, const f32 p1, const f32 p2, const f32 p3, f32 t)</td></tr>
 <tr class="memdesc:gafd008f52545e7a386b0511bd92894e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Catmull-Rom interpolation. <br /></td></tr>
 <tr class="separator:gafd008f52545e7a386b0511bd92894e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4e7945f7048eb6d607322ec0283f564b"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga4e7945f7048eb6d607322ec0283f564b">to_string</a> (const <a class="el" href="structcrown_1_1_vector3.html">Vector3</a> &amp;v, char *buf, u32 buf_len)</td></tr>
-<tr class="memdesc:ga4e7945f7048eb6d607322ec0283f564b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the vector .  <a href="group___math.html#ga4e7945f7048eb6d607322ec0283f564b">More...</a><br /></td></tr>
-<tr class="separator:ga4e7945f7048eb6d607322ec0283f564b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabffcfa0796bd4fb36efa2a6e2ce8a6fa"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gabffcfa0796bd4fb36efa2a6e2ce8a6fa">to_string</a> (const <a class="el" href="structcrown_1_1_vector4.html">Vector4</a> &amp;v, char *buf, u32 buf_len)</td></tr>
-<tr class="memdesc:gabffcfa0796bd4fb36efa2a6e2ce8a6fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the vector .  <a href="group___math.html#gabffcfa0796bd4fb36efa2a6e2ce8a6fa">More...</a><br /></td></tr>
-<tr class="separator:gabffcfa0796bd4fb36efa2a6e2ce8a6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7c814b05f52345bdec90b7f3383c900f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga7c814b05f52345bdec90b7f3383c900f">to_string</a> (const <a class="el" href="structcrown_1_1_quaternion.html">Quaternion</a> &amp;q, char *buf, u32 buf_len)</td></tr>
-<tr class="memdesc:ga7c814b05f52345bdec90b7f3383c900f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the quaternion .  <a href="group___math.html#ga7c814b05f52345bdec90b7f3383c900f">More...</a><br /></td></tr>
-<tr class="separator:ga7c814b05f52345bdec90b7f3383c900f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga38f02438d24bee64592dd7cf5a4e44dc"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga38f02438d24bee64592dd7cf5a4e44dc">to_string</a> (const <a class="el" href="structcrown_1_1_matrix4x4.html">Matrix4x4</a> &amp;m, char *buf, u32 buf_len)</td></tr>
-<tr class="memdesc:ga38f02438d24bee64592dd7cf5a4e44dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the matrix .  <a href="group___math.html#ga38f02438d24bee64592dd7cf5a4e44dc">More...</a><br /></td></tr>
-<tr class="separator:ga38f02438d24bee64592dd7cf5a4e44dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabacb8b717f3cac4f975efaae565da4f4"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#gabacb8b717f3cac4f975efaae565da4f4">to_string</a> (char *buf, u32 buf_len, const <a class="el" href="structcrown_1_1_vector3.html">Vector3</a> &amp;v)</td></tr>
+<tr class="memdesc:gabacb8b717f3cac4f975efaae565da4f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the vector .  <a href="group___math.html#gabacb8b717f3cac4f975efaae565da4f4">More...</a><br /></td></tr>
+<tr class="separator:gabacb8b717f3cac4f975efaae565da4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga048b2ac3532d5b5c084e43f854ddaa75"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga048b2ac3532d5b5c084e43f854ddaa75">to_string</a> (char *buf, u32 buf_len, const <a class="el" href="structcrown_1_1_vector4.html">Vector4</a> &amp;v)</td></tr>
+<tr class="memdesc:ga048b2ac3532d5b5c084e43f854ddaa75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the vector .  <a href="group___math.html#ga048b2ac3532d5b5c084e43f854ddaa75">More...</a><br /></td></tr>
+<tr class="separator:ga048b2ac3532d5b5c084e43f854ddaa75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga508aecb47e5bc8203b8da7c26d451de9"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga508aecb47e5bc8203b8da7c26d451de9">to_string</a> (char *buf, u32 buf_len, const <a class="el" href="structcrown_1_1_quaternion.html">Quaternion</a> &amp;q)</td></tr>
+<tr class="memdesc:ga508aecb47e5bc8203b8da7c26d451de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the quaternion .  <a href="group___math.html#ga508aecb47e5bc8203b8da7c26d451de9">More...</a><br /></td></tr>
+<tr class="separator:ga508aecb47e5bc8203b8da7c26d451de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga29d3db5239ad72e56a19ca9bec40f611"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga29d3db5239ad72e56a19ca9bec40f611">to_string</a> (char *buf, u32 buf_len, const <a class="el" href="structcrown_1_1_matrix4x4.html">Matrix4x4</a> &amp;m)</td></tr>
+<tr class="memdesc:ga29d3db5239ad72e56a19ca9bec40f611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the matrix .  <a href="group___math.html#ga29d3db5239ad72e56a19ca9bec40f611">More...</a><br /></td></tr>
+<tr class="separator:ga29d3db5239ad72e56a19ca9bec40f611"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga19caa67ca2465614090238e3c932f09f"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="structcrown_1_1_matrix3x3.html">Matrix3x3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___math.html#ga19caa67ca2465614090238e3c932f09f">from_elements</a> (f32 xx, f32 xy, f32 xz, f32 yx, f32 yy, f32 yz, f32 zx, f32 zy, f32 zz)</td></tr>
 <tr class="memdesc:ga19caa67ca2465614090238e3c932f09f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new matrix from individual elements. <br /></td></tr>
@@ -1549,6 +1555,10 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a48b1916d0465b534c19c642fa2371712"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48b1916d0465b534c19c642fa2371712"></a>
 u64&#160;</td><td class="memItemRight" valign="bottom"><b>murmur64</b> (const void *key, u32 len, u64 seed)</td></tr>
 <tr class="separator:a48b1916d0465b534c19c642fa2371712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a39741091da142514f5e988a5be5833"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a39741091da142514f5e988a5be5833"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecrown.html#a7a39741091da142514f5e988a5be5833">operator==</a> (const <a class="el" href="structcrown_1_1_t_c_p_socket.html">TCPSocket</a> &amp;aa, const <a class="el" href="structcrown_1_1_t_c_p_socket.html">TCPSocket</a> &amp;bb)</td></tr>
+<tr class="memdesc:a7a39741091da142514f5e988a5be5833"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the sockets <em>aa</em> and <em>bb</em> represent the same socket. <br /></td></tr>
+<tr class="separator:a7a39741091da142514f5e988a5be5833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a654a3c9cb3b9e543138854d3caa5f9cb"><td class="memTemplParams" colspan="2"><a class="anchor" id="a654a3c9cb3b9e543138854d3caa5f9cb"></a>
 template&lt;typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:a654a3c9cb3b9e543138854d3caa5f9cb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>swap</b> (<a class="el" href="structcrown_1_1_pair.html">Pair</a>&lt; T1, T2, 0, 0 &gt; &amp;a, <a class="el" href="structcrown_1_1_pair.html">Pair</a>&lt; T1, T2, 0, 0 &gt; &amp;b)</td></tr>
@@ -1813,6 +1823,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const
 <tr class="memitem:af593d9b3a46dd85240af08b60bac0d90"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af593d9b3a46dd85240af08b60bac0d90"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="structcrown_1_1_resource_manager_1_1_resource_entry.html">ResourceManager::ResourceEntry</a> &amp;a, const <a class="el" href="structcrown_1_1_resource_manager_1_1_resource_entry.html">ResourceManager::ResourceEntry</a> &amp;b)</td></tr>
 <tr class="separator:af593d9b3a46dd85240af08b60bac0d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ae8aca56425384222f809d7242c33de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ae8aca56425384222f809d7242c33de"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CE_STATIC_ASSERT</b> (countof(s_bgfx_uniform_type)==UniformType::COUNT)</td></tr>
+<tr class="separator:a2ae8aca56425384222f809d7242c33de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a491b05d953c3b2c4944f45daee7216fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a491b05d953c3b2c4944f45daee7216fd"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="structcrown_1_1_unit_id.html">UnitId</a> &amp;a, const <a class="el" href="structcrown_1_1_unit_id.html">UnitId</a> &amp;b)</td></tr>
 <tr class="separator:a491b05d953c3b2c4944f45daee7216fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1928,7 +1941,7 @@ const <a class="el" href="structcrown_1_1_unit_id.html">UnitId</a>&#160;</td><td
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 5 2021 17:46:07 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 17 2021 00:53:16 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

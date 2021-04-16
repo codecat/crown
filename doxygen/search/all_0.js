@@ -60,7 +60,6 @@ var searchData=
   ['add_5frequest',['add_request',['../structcrown_1_1_resource_loader.html#ae269de3efae087a8c06a67e6056dba80',1,'crown::ResourceLoader']]],
   ['add_5fsphere',['add_sphere',['../structcrown_1_1_debug_line.html#a3602c90dd3557641139d90c5e2cae8f6',1,'crown::DebugLine']]],
   ['add_5fspheres',['add_spheres',['../namespacecrown_1_1sphere.html#a7b24a6b00bd740b4f9023c2385b2402b',1,'crown::sphere']]],
-  ['add_5funit',['add_unit',['../structcrown_1_1_debug_line.html#ad7a045c3a1771206958b4a78ca377e34',1,'crown::DebugLine']]],
   ['address',['address',['../structcrown_1_1_i_p_address.html#ac1c18742833c66de0de0f25416c8e4f1',1,'crown::IPAddress']]],
   ['alive',['alive',['../structcrown_1_1_unit_manager.html#a09f824f2d3064dfb783d2a10ba7350e7',1,'crown::UnitManager']]],
   ['allocate',['allocate',['../structcrown_1_1_allocator.html#ac96c267f0558b8b460d5a2663fb6e8e9',1,'crown::Allocator::allocate()'],['../structcrown_1_1_linear_allocator.html#a42763437e42d2e5b1d22163260380393',1,'crown::LinearAllocator::allocate()'],['../structcrown_1_1_pool_allocator.html#a31d0a32c27bf08530085cbe056e1fcae',1,'crown::PoolAllocator::allocate()'],['../structcrown_1_1_proxy_allocator.html#a25784ef4782edbdc756a0c038a622fc6',1,'crown::ProxyAllocator::allocate()'],['../structcrown_1_1_stack_allocator.html#aa883ef09ddda733127fe1bdbcdfff8be',1,'crown::StackAllocator::allocate()']]],

@@ -10,6 +10,7 @@ var searchData=
   ['ray_5ftriangle_5fintersection',['ray_triangle_intersection',['../group___math.html#ga0611bb224786987a21b03b87b20e8638',1,'crown']]],
   ['read',['read',['../structcrown_1_1_file.html#aba8b10f9cb326f04c4319eb261061d2e',1,'crown::File::read()'],['../structcrown_1_1_t_c_p_socket.html#ac751152281c78d8afa53bf80f9199429',1,'crown::TCPSocket::read()'],['../structcrown_1_1_process.html#ae45f858767d747cd4ba1ffdbf3d0f313',1,'crown::Process::read()']]],
   ['read_5fnonblock',['read_nonblock',['../structcrown_1_1_t_c_p_socket.html#aa250047ef7a3fa4f49d41dd5af322a48',1,'crown::TCPSocket']]],
+  ['reallocate',['reallocate',['../structcrown_1_1_allocator.html#a05e2f5455d003f9e0dd59c69ed744d56',1,'crown::Allocator::reallocate()'],['../structcrown_1_1_proxy_allocator.html#a45022450f660d622825c2c0a1814aad7',1,'crown::ProxyAllocator::reallocate()']]],
   ['record_5ffloat',['record_float',['../namespacecrown_1_1profiler.html#a6010b0da2baf3016924042529a1b046c',1,'crown::profiler']]],
   ['record_5fvector3',['record_vector3',['../namespacecrown_1_1profiler.html#a13c2d80e128516bc6984954a9d8a1013',1,'crown::profiler']]],
   ['reduce',['reduce',['../namespacecrown_1_1path.html#a2c5e129a64d6a500dd41ea4031ad8d97',1,'crown::path']]],

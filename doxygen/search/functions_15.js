@@ -7,6 +7,7 @@ var searchData=
   ['vector3',['vector3',['../group___math.html#ga7f1ddf0ced574b5c60a8ab0fdda48c4b',1,'crown']]],
   ['vector4',['vector4',['../group___math.html#gac6e9afc181facd9c523ce1fafb3405b5',1,'crown']]],
   ['version_5fchanged',['version_changed',['../structcrown_1_1_data_compiler.html#af47d56f83e338525bb450c6c6b6dcff7',1,'crown::DataCompiler']]],
-  ['vertex',['vertex',['../namespacecrown_1_1aabb.html#a0bf58bcf11e451a3a6c0c71cda1257c9',1,'crown::aabb::vertex()'],['../namespacecrown_1_1frustum.html#a041c9602c2051442bb8ec1d5eaeccd90',1,'crown::frustum::vertex()']]],
+  ['vertex',['vertex',['../namespacecrown_1_1aabb.html#a0bf58bcf11e451a3a6c0c71cda1257c9',1,'crown::aabb']]],
+  ['vertices',['vertices',['../namespacecrown_1_1frustum.html#a6d26e98b90ec276748a9c5133173bcbe',1,'crown::frustum']]],
   ['volume',['volume',['../namespacecrown_1_1aabb.html#ae2b427c3faebdc173f3d4127161052a5',1,'crown::aabb::volume()'],['../namespacecrown_1_1sphere.html#aa422cad54506011a1979bbf3b6ed555a',1,'crown::sphere::volume()']]]
 ];

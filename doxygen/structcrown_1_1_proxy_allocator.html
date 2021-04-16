@@ -105,6 +105,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac6ddfcdbff12abf62a6d895ab86819a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_proxy_allocator.html#ac6ddfcdbff12abf62a6d895ab86819a2">deallocate</a> (void *data)</td></tr>
 <tr class="memdesc:ac6ddfcdbff12abf62a6d895ab86819a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocates a previously allocated block of memory pointed by <em>data</em>.  <a href="#ac6ddfcdbff12abf62a6d895ab86819a2">More...</a><br /></td></tr>
 <tr class="separator:ac6ddfcdbff12abf62a6d895ab86819a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45022450f660d622825c2c0a1814aad7"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_proxy_allocator.html#a45022450f660d622825c2c0a1814aad7">reallocate</a> (void *data, u32 size, u32 align=<a class="el" href="structcrown_1_1_allocator.html#a483b4059b1bfbf1581532b6f0d3a9df1">DEFAULT_ALIGN</a>)</td></tr>
+<tr class="separator:a45022450f660d622825c2c0a1814aad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab6aa9dbb736a852f7caffb1142dd711"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_proxy_allocator.html#aab6aa9dbb736a852f7caffb1142dd711">allocated_size</a> (const void *ptr)</td></tr>
 <tr class="memdesc:aab6aa9dbb736a852f7caffb1142dd711"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the memory block pointed by <em>ptr</em> or SIZE_NOT_TRACKED if the allocator does not support memory tracking.  <a href="#aab6aa9dbb736a852f7caffb1142dd711">More...</a><br /></td></tr>
 <tr class="separator:aab6aa9dbb736a852f7caffb1142dd711"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,6 +214,50 @@ static const u32&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_NOT_
 
 </div>
 </div>
+<a class="anchor" id="a45022450f660d622825c2c0a1814aad7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * crown::ProxyAllocator::reallocate </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">u32&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">u32&#160;</td>
+          <td class="paramname"><em>align</em> = <code><a class="el" href="structcrown_1_1_allocator.html#a483b4059b1bfbf1581532b6f0d3a9df1">DEFAULT_ALIGN</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p></p>
+
+<p>Reimplemented from <a class="el" href="structcrown_1_1_allocator.html#a05e2f5455d003f9e0dd59c69ed744d56">crown::Allocator</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aab6aa9dbb736a852f7caffb1142dd711"></a>
 <div class="memitem">
 <div class="memproto">
@@ -275,7 +321,7 @@ static const u32&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_NOT_
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 5 2021 17:46:08 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 17 2021 00:53:18 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

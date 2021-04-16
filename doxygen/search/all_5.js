@@ -36,8 +36,6 @@ var searchData=
   ['from_5ftranslation',['from_translation',['../group___math.html#ga9bff1dd0c3f040fbb09bcf0901a656be',1,'crown']]],
   ['front',['front',['../namespacecrown_1_1array.html#ac1715d61092d72cb1ea6c5fcf6a928eb',1,'crown::array::front(Array&lt; T &gt; &amp;a)'],['../namespacecrown_1_1array.html#aadadddc8f9bc74edd8f6623d59b4c82e',1,'crown::array::front(const Array&lt; T &gt; &amp;a)'],['../namespacecrown_1_1vector.html#a1f0636a2776ca8f2dbbf9e8954fc3e9d',1,'crown::vector::front(Vector&lt; T &gt; &amp;v)'],['../namespacecrown_1_1vector.html#a3c8f07dc71509dcdbb45a4c6ec618800',1,'crown::vector::front(const Vector&lt; T &gt; &amp;v)']]],
   ['frustum',['Frustum',['../structcrown_1_1_frustum.html',1,'crown']]],
-  ['frustum_5fbox_5fintersection',['frustum_box_intersection',['../group___math.html#ga1d490762d4b506dd4f78412791339a59',1,'crown']]],
-  ['frustum_5fsphere_5fintersection',['frustum_sphere_intersection',['../group___math.html#ga618bd1d60d10675ff3f77ab39f947e87',1,'crown']]],
   ['fsin',['fsin',['../group___math.html#ga2877d13a149928c872c1195d6e26d65d',1,'crown']]],
   ['fsqrt',['fsqrt',['../group___math.html#ga58d8427bd85b742a57425fd6ae9bbb31',1,'crown']]],
   ['ftan',['ftan',['../group___math.html#gaa58c68b9315582ac7001d265a33b8dfd',1,'crown']]]

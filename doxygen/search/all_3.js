@@ -36,5 +36,6 @@ var searchData=
   ['distance_5fsquared',['distance_squared',['../group___math.html#ga32fdda0e26720f8a198ce349e9e925f8',1,'crown::distance_squared(const Vector2 &amp;a, const Vector2 &amp;b)'],['../group___math.html#ga8ca11400b8a604b6a7b53fa9cafc0f47',1,'crown::distance_squared(const Vector3 &amp;a, const Vector3 &amp;b)'],['../group___math.html#gad3eb1a8c171ffc45025921a6e405e1a2',1,'crown::distance_squared(const Vector4 &amp;a, const Vector4 &amp;b)']]],
   ['do_5ffile',['do_file',['../structcrown_1_1_lua_environment.html#a4077c27b40d226dfaa1e8924a9dcf1c6',1,'crown::LuaEnvironment']]],
   ['dot',['dot',['../group___math.html#ga2700eaa4ac075b6b8b713535ec4b330b',1,'crown::dot(const Quaternion &amp;a, const Quaternion &amp;b)'],['../group___math.html#gaae9a2bae1e07a43b18f1491c0f2f190c',1,'crown::dot(const Vector2 &amp;a, const Vector2 &amp;b)'],['../group___math.html#gad1c2f701385a5a987f3d47e1a98a7b99',1,'crown::dot(const Vector3 &amp;a, const Vector3 &amp;b)'],['../group___math.html#gadcec8c8f9a4e57d1962aa3efec81391d',1,'crown::dot(const Vector4 &amp;a, const Vector4 &amp;b)']]],
+  ['drawoverride',['DrawOverride',['../structcrown_1_1_render_world.html#ad1e1efbbc5e79f72c052a3da54caa0c3',1,'crown::RenderWorld']]],
   ['dynamicstring',['DynamicString',['../structcrown_1_1_dynamic_string.html',1,'crown']]]
 ];

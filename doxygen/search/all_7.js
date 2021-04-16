@@ -40,6 +40,7 @@ var searchData=
   ['hashmap_3c_20stringid32_2c_20shaderdata_20_3e',['HashMap&lt; StringId32, ShaderData &gt;',['../structcrown_1_1_hash_map.html',1,'crown']]],
   ['hashmap_3c_20stringid64_2c_20resourcetypedata_20_3e',['HashMap&lt; StringId64, ResourceTypeData &gt;',['../structcrown_1_1_hash_map.html',1,'crown']]],
   ['hashset',['HashSet',['../structcrown_1_1_hash_set.html',1,'crown']]],
+  ['hashset_3c_20crown_3a_3aunitid_20_3e',['HashSet&lt; crown::UnitId &gt;',['../structcrown_1_1_hash_set.html',1,'crown']]],
   ['header',['Header',['../structcrown_1_1_stack_allocator_1_1_header.html',1,'crown::StackAllocator']]],
   ['heightfieldshape',['HeightfieldShape',['../structcrown_1_1_heightfield_shape.html',1,'crown']]],
   ['hide',['hide',['../structcrown_1_1_window.html#a4f5497e636219c118a03314ad8bcc7da',1,'crown::Window']]],

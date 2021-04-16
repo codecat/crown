@@ -108,6 +108,10 @@ Public Member Functions</h2></td></tr>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_allocator.html#a3debe272ab5b34a6ece7c912a97d676d">deallocate</a> (void *data)=0</td></tr>
 <tr class="memdesc:a3debe272ab5b34a6ece7c912a97d676d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocates a previously allocated block of memory pointed by <em>data</em>. <br /></td></tr>
 <tr class="separator:a3debe272ab5b34a6ece7c912a97d676d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e2f5455d003f9e0dd59c69ed744d56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05e2f5455d003f9e0dd59c69ed744d56"></a>
+virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_allocator.html#a05e2f5455d003f9e0dd59c69ed744d56">reallocate</a> (void *data, u32 size, u32 align=<a class="el" href="structcrown_1_1_allocator.html#a483b4059b1bfbf1581532b6f0d3a9df1">DEFAULT_ALIGN</a>)</td></tr>
+<tr class="memdesc:a05e2f5455d003f9e0dd59c69ed744d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">See: realloc(). <br /></td></tr>
+<tr class="separator:a05e2f5455d003f9e0dd59c69ed744d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfda6554be8e5a79053d7d2b84c50cb8"><td class="memItemLeft" align="right" valign="top">virtual u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrown_1_1_allocator.html#abfda6554be8e5a79053d7d2b84c50cb8">allocated_size</a> (const void *ptr)=0</td></tr>
 <tr class="memdesc:abfda6554be8e5a79053d7d2b84c50cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the memory block pointed by <em>ptr</em> or SIZE_NOT_TRACKED if the allocator does not support memory tracking.  <a href="#abfda6554be8e5a79053d7d2b84c50cb8">More...</a><br /></td></tr>
 <tr class="separator:abfda6554be8e5a79053d7d2b84c50cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,13 +200,14 @@ static const u32&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_NOT_
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li>src/core/memory/<a class="el" href="allocator_8h_source.html">allocator.h</a></li>
+<li>src/core/memory/globals.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 5 2021 17:46:07 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 17 2021 00:53:16 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

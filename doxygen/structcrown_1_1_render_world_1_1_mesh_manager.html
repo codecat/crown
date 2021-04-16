@@ -86,6 +86,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">crown::RenderWorld::MeshManager Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>List of meshes to be rendered.  
+ <a href="structcrown_1_1_render_world_1_1_mesh_manager.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="render__world_8h_source.html">render_world.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -96,9 +101,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af381ab7aead7468c35f5e150b5742b8d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af381ab7aead7468c35f5e150b5742b8d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MeshManager</b> (<a class="el" href="structcrown_1_1_allocator.html">Allocator</a> &amp;a)</td></tr>
-<tr class="separator:af381ab7aead7468c35f5e150b5742b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef34b0a0bf9a766b03234863e019af7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abef34b0a0bf9a766b03234863e019af7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>MeshManager</b> (<a class="el" href="structcrown_1_1_allocator.html">Allocator</a> &amp;a, <a class="el" href="structcrown_1_1_render_world.html">RenderWorld</a> *rw)</td></tr>
+<tr class="separator:abef34b0a0bf9a766b03234863e019af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c73a002bfa57c766283ba14c05feec4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c73a002bfa57c766283ba14c05feec4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>allocate</b> (u32 num)</td></tr>
 <tr class="separator:a9c73a002bfa57c766283ba14c05feec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,6 +131,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>destroy</b> ()</td></
 <tr class="memitem:ab94432eee80cd070334539e1f13c738c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab94432eee80cd070334539e1f13c738c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>swap</b> (u32 inst_a, u32 inst_b)</td></tr>
 <tr class="separator:ab94432eee80cd070334539e1f13c738c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc2fa017d6bd12870bbb65816e8f7f0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc2fa017d6bd12870bbb65816e8f7f0a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>draw</b> (u8 view, <a class="el" href="structcrown_1_1_resource_manager.html">ResourceManager</a> *rm, <a class="el" href="structcrown_1_1_shader_manager.html">ShaderManager</a> *sm, <a class="el" href="structcrown_1_1_material_manager.html">MaterialManager</a> *mm, <a class="el" href="structcrown_1_1_render_world.html#ad1e1efbbc5e79f72c052a3da54caa0c3">DrawOverride</a> draw_override=NULL)</td></tr>
+<tr class="separator:adc2fa017d6bd12870bbb65816e8f7f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0e51541fc1fade00fdb02d2338363f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0e51541fc1fade00fdb02d2338363f0"></a>
 MeshInstance&#160;</td><td class="memItemRight" valign="bottom"><b>make_instance</b> (u32 i)</td></tr>
 <tr class="separator:aa0e51541fc1fade00fdb02d2338363f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +143,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a98557843d621971072c1e04d4dc11588"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98557843d621971072c1e04d4dc11588"></a>
 <a class="el" href="structcrown_1_1_allocator.html">Allocator</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_allocator</b></td></tr>
 <tr class="separator:a98557843d621971072c1e04d4dc11588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa66f9f564a5a4c38a78dd28105807330"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa66f9f564a5a4c38a78dd28105807330"></a>
+<a class="el" href="structcrown_1_1_render_world.html">RenderWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_render_world</b></td></tr>
+<tr class="separator:aa66f9f564a5a4c38a78dd28105807330"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a075b769ecaa795d0b81449fa372b89ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a075b769ecaa795d0b81449fa372b89ea"></a>
 <a class="el" href="structcrown_1_1_hash_map.html">HashMap</a>&lt; <a class="el" href="structcrown_1_1_unit_id.html">UnitId</a>, u32 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_map</b></td></tr>
 <tr class="separator:a075b769ecaa795d0b81449fa372b89ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,14 +153,16 @@ Public Attributes</h2></td></tr>
 <a class="el" href="structcrown_1_1_render_world_1_1_mesh_manager_1_1_mesh_instance_data.html">MeshInstanceData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_data</b></td></tr>
 <tr class="separator:a6d9559d2bb669f4b26d23d05dfedf06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following files:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>List of meshes to be rendered. </p>
+</div><hr/>The documentation for this struct was generated from the following files:<ul>
 <li>src/world/<a class="el" href="render__world_8h_source.html">render_world.h</a></li>
 <li>src/world/render_world.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 5 2021 17:46:08 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 17 2021 00:53:18 for Crown by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
