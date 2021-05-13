@@ -68,6 +68,7 @@ var searchData=
   ['sprite_5fset_5fframe',['sprite_set_frame',['../structcrown_1_1_render_world.html#a3fbdd80e0ca9a7c30489e524d070d45a',1,'crown::RenderWorld']]],
   ['sprite_5fset_5flayer',['sprite_set_layer',['../structcrown_1_1_render_world.html#ab7be2455edec6c5f1e8a047241b48a3f',1,'crown::RenderWorld']]],
   ['sprite_5fset_5fmaterial',['sprite_set_material',['../structcrown_1_1_render_world.html#a9388dcba1c75540b20a3b7ec8df6d3dd',1,'crown::RenderWorld']]],
+  ['sprite_5fset_5fsprite',['sprite_set_sprite',['../structcrown_1_1_render_world.html#a84dc36982bc134234f8823c45cd9a553',1,'crown::RenderWorld']]],
   ['sprite_5fset_5fvisible',['sprite_set_visible',['../structcrown_1_1_render_world.html#ab1510f18fd5eddc51916ae3da46676b9',1,'crown::RenderWorld']]],
   ['start',['start',['../structcrown_1_1_file_monitor.html#a963b78b10462a1ecbcd0d06ebb4af5a5',1,'crown::FileMonitor']]],
   ['stat',['stat',['../structcrown_1_1_filesystem.html#a745928b32333f9313a3fce558e78eb96',1,'crown::Filesystem::stat()'],['../structcrown_1_1_filesystem_disk.html#aeb49baa73e68a46769691300a638be99',1,'crown::FilesystemDisk::stat()'],['../namespacecrown_1_1os.html#a80f9cf4057da918a94a8061599dc7744',1,'crown::os::stat()']]],
